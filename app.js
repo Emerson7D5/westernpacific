@@ -5,8 +5,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const apiControllers = require('./controllers/index');
 const mongoose = require('mongoose');
-//const config = require('./config/index')(process.env.NODE_ENV);
-const config = require('./config/index');
+const config = require('./config/index')(process.env.NODE_ENV);
 const cors = require('cors');
 
 const port = process.env.port || process.env.PORT || 3001;
