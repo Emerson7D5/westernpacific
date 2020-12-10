@@ -8,12 +8,12 @@ const config = {
     database: DB,
   },
   development: {
-    public_url: 'http://localhost:3000',
+    public_url: 'https://westernpacific.azurewebsites.net/',
     secret: SECRET,
     database: DB,
   },
   test: {
-    public_url: 'http://localhost:3000',
+    public_url: 'https://westernpacific.azurewebsites.net/',
     secret: SECRET,
     database: DB,
   },
