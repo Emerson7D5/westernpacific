@@ -3,7 +3,7 @@ const SECRET = "wp@c!f!cb"
 
 const config = {
   production: {
-    public_url: 'http://localhost:3000',
+    public_url: 'https://westernpacific.azurewebsites.net/',
     secret: SECRET,
     database: DB,
   },
@@ -18,7 +18,7 @@ const config = {
     database: DB,
   },
   default: {
-    public_url: 'http://localhost:3000',
+    public_url: 'https://westernpacific.azurewebsites.net/',
     secret: SECRET,
     database: DB,
   },
