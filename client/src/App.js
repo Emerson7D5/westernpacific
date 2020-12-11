@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import styled from 'styled-components'
-import PageUnderConstruction from './pages/PageUnderConstruction'
+//import PageUnderConstruction from './pages/PageUnderConstruction'
 import NavigationBar from './landingPage/globalComponents/navbar'
 import HomePageContainer from './landingPage/home/index'
 import EnergyPageContainer from './landingPage/energy/index'
